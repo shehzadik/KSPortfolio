@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KS Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    
+    <!-- <header>
+        <video autoplay loop muted plays-inline>
+            <source src="assets/banner.mp4" type="video/mp4">
+        </video>
+
+        <div class="nav">
+            <img src="assets/logo.png" alt="logo">
+            <button><i class="fa-solid fa-bars"></i></button>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#">Reviews</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="main-content">
+            <h1>Turning Ideas into Content <br>That Makes a Difference</h1>
+            <button><a href="#services">Explore Services</a></button>
+        </div>
+    </header> -->
+
+    <header class="animate">
+        <div class="hero-main" id="main">
+            <video autoplay loop muted plays-inline>
+                <source src="assets/banner.mp4">
+            </video>
+            <div class="navbar-custom">
+                <!-- <div class="logo">aura events</div> -->
+                <img src="assets/logo.png">
+                
+
+                <div class="toggle-btn"><i class="fa-solid fa-bars" onclick="toggleNavLinks()"></i></div> 
+                <div class="nav-links">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About Me</a></li>   
+                        <li><a href="#services">Services</a></li>  
+                        <li><a href="#samples">Samples</a></li>                                   
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>  
+            </div>
+            <div class="main-content">
+                <h1>Turning Ideas into Content <br>That Makes a Difference</h1>
+                <button><a href="#services">Explore Services</a></button>
+            </div>
+        </div>  
+    </header>
+
+    <div class="about animate" id="about">
+        <div><img src="assets/fjwu.jpg" alt="fjwu"></div>
+        <div class="about-info">
+            <div class="info">
+                <h1>About Me</h1>
+                <p>I'm Kiran Shahzadi, a content writer who brings clarity and creativity to every project. 
+                    My mission is to create impactful content that speaks to your audience.</p>
+            </div>
+            <div class="info">
+                <h1>Education</h1>
+                <p>I hold a Bachelor's degree in Software Engineering from Fatima Jinnah Women University,
+                     where I studied from 2015 to 2019 and graduated with a CGPA of 3.5.</p>
+            </div>
+        </div> 
+    </div>
+
+    <div class="services animate" id="services">
+        <h1>Services</h1>
+        <p>I provide expert content writing services on a wide range of topics.</p>
+
+        <div class="service-lists">
+            <div class="service-types">
+                <img src="assets/writing.png">
+                <h3>Content Writing</h3>
+                <p>Crafting reports, essays, case studies, and research papers with clarity and precision to meet your specific needs.</p>
+            </div>
+            <div class="service-types">
+                <img src="assets/presentation.png">
+                <h3>Presentation</h3>
+                <p>Designing compelling presentations that effectively communicate your message and captivate your audience.</p>
+            </div>
+            <div class="service-types">
+                <img src="assets/checklist.png">
+                <h3>Checklists and Worksheets</h3>
+                <p>Creating practical and user-friendly checklists and worksheets to streamline your processes and enhance productivity.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="samples animate" id="samples">
+        <h1>Work Samples</h1>
+        <div class="work-samples">
+            <img src="assets/sample1.PNG" alt="sample">
+            <img src="assets/sample2.PNG" alt="sample">
+            <img src="assets/sample3.PNG" alt="sample">
+            <img src="assets/sample4.PNG" alt="sample">
+            <img src="assets/sample5.PNG" alt="sample">
+            <img src="assets/sample6.PNG" alt="sample">
+        </div>
+        <div class="work-samples">
+            <img src="assets/word1.PNG" alt="sample">
+            <img src="assets/word2.PNG" alt="sample">
+            <img src="assets/word3.PNG" alt="sample">
+            <img src="assets/word4.PNG" alt="sample">
+
+        </div>
+    </div>
+
+    <div class="reviews animate" id="reviews">
+        <h1>Reviews</h1>
+        <div class="main-image">
+            <img src="assets/review1.PNG">
+        </div>
+        <div class="image-slides">
+            <img src="assets/review2.PNG">
+            <img src="assets/review3.PNG">
+            <img src="assets/review4.PNG">
+            <img src="assets/review5.PNG">
+            <img src="assets/review6.PNG">
+        </div>
+
+        <div class="dots"></div>
+    </div>
+
+    <footer class="animate">
+        <div class="basic-info">
+            <img src="assets/logo.png" alt="logo">
+            <p>Creating compelling content that captures attention and drives results</p>
+        </div>
+    
+        <div class="contact-info">
+            <h3>Contact Me</h3>
+            <div>
+                <img src="assets/fiverr.png" alt="fiverr">
+                <a href="https://www.fiverr.com/shehzadi_kiran">Shehzadi K.</a>
+            </div>
+            <div>
+                <img src="assets/gmail.png" alt="gmail">
+                <a href="mailto:shehzadik99@gmail.com">shehzadik99@gmail.com</a>
+            </div>
+        </div>
+    
+        <div class="inquiry">
+            <h3>Inquiry</h3>
+            <p>Contact me for any inquiry related to your project</p>
+            <textarea rows="1" placeholder="Write your message here!"></textarea>
+            <input type="submit" value="Send">
+        </div>
+    </footer>
+    
+</body>
+</html>
